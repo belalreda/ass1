@@ -1,0 +1,125 @@
+.slide1 , .slide2{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.5;
+  opacity: 0;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-right: 50%;
+}
+
+div.show{
+  opacity: 1;
+  z-index: 2;
+}
+.slide1
+{
+    height: 100vh;
+    width: 86%;
+    background-image: url(../../assets/img_bg_2-DzCs5o-0.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.slide2
+{
+    height: 100vh;
+    width: 86%;
+    background-image: url(../../assets/img_bg_1-PzvG2r05.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+h2{
+  color: #131313;
+ font-size: 60px;
+}
+
+p{
+  color: #000000;
+}
+
+  
+  
+
+  
+
+  
+
+  .boxed-btn3 {
+    text-decoration: none;
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 27px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+ 
+
+  .boxed-btn3:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  
+  .boxed-btn3-white {
+    color: #fff;
+    display: inline-block;
+    padding: 13px 27px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000 !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+
+ 
+  
+
+  .boxed-btn3-white i {
+    margin-right: 2px;
+    text-decoration: none;
+  }
+  
+
+  .boxed-btn3-white:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  

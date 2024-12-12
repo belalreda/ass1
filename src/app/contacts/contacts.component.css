@@ -1,0 +1,82 @@
+
+.nav-pills .nav-link.active{
+
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #000000;
+    --bs-nav-pills-link-active-bg: #ffffff;
+}
+.gallery_area .single-gallery {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .gallery_area .single-gallery img {
+    width: 100%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  
+  .gallery_area .single-gallery .gallery_hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    visibility: hidden;
+    text-decoration: none;
+  }
+  
+  
+  .gallery_area .single-gallery .gallery_hover .hover_in {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+  
+  
+  .gallery_area .single-gallery  h3 {
+    font-size: 22px;
+    color: #fff;
+  
+  }
+  
+  
+  .gallery_area .single-gallery span {
+    color: #fff;
+    font-size: 14px;
+   
+  }
+  
+  
+  .gallery_area .single-gallery:hover .gallery_hover {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .bton{
+    padding-top: 8%;
+    padding-bottom: 20%;
+  }
+  
